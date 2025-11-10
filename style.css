@@ -12,12 +12,12 @@ font-size: 32px;
 color: rgb(42,122,228);
 }
 
-section {
+.chamada {
     background: rgb(184, 156, 213);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .chamada-texto {
@@ -34,3 +34,15 @@ p {
 img {
     height: 200px;
         }
+
+.categoria-videos {
+display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+        
